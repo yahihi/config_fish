@@ -1,0 +1,16 @@
+# 機密情報を含むファイル
+.env.fish
+.envrc
+fish_variables
+
+# 一時ファイル
+*.tmp
+*.swp
+*~
+
+# fishの履歴
+fish_history
+fish_read_history
+
+# ローカル設定
+config.local.fish

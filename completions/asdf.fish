@@ -1,0 +1,1 @@
+/home/yahihi/.asdf/completions/asdf.fish
