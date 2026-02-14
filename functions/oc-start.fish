@@ -3,7 +3,7 @@ function oc-start -d "Start OpenClaw Gateway"
         echo "Gateway is already running (pid $(pgrep -f '[o]penclaw-gateway' | head -1))"
         return 1
     end
-    openclaw gateway --port 18789 --verbose &
+    openclaw gateway --port 18789 --verbose > /tmp/openclaw-gateway.log 2>&1 &
     disown
     echo "Gateway started"
 end
